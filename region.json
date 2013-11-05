@@ -1,0 +1,10 @@
+/* regions */
+{
+  "name":       "<String>",
+  "country_id": "<String>",
+
+  "state": 
+  {
+    "active": "<Boolean>"
+  }
+}

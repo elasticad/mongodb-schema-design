@@ -1,0 +1,10 @@
+/* cities */
+{
+  "region_id":  "<ObjectId>",
+  "name":       "<String>",
+  "zipcode":    "<String>",
+  "state": 
+  {
+    "active": "<Boolean>"
+  }  
+}

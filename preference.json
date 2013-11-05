@@ -1,0 +1,6 @@
+/* preferences */
+{
+  "value":      "<String>", /* Text */
+  "key":        "<String>",
+  "value_type": "<String>"
+}

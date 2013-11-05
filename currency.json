@@ -1,0 +1,23 @@
+/* currencies */
+{
+  "priority": "<Integer>",
+  "iso":
+  {
+    "code":     "<String>",
+    "numeric":  "<String>"
+  },
+  "name":                 "<String>",
+  "symbol":               "<String>",
+  "alternate_symbols":    "<Array>", 
+  /* e.g. ['USD'] */
+  "subunit":              "<String>",
+  "subunit_to_unit":      "<Integer>",
+  "symbol_first":         "<Boolean>",
+  "html_entity":          "<String>",
+  "decimal_mark":         "<String>",
+  "thousands_separator":  "<String>",
+  "state": 
+  {
+    "active": "<Boolean>"
+  }
+}

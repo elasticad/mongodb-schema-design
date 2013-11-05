@@ -1,0 +1,27 @@
+/* ad_comments */
+{
+  "ad_id": "<ObjectId>",
+  "date":
+  {
+    "published_at": "<Timestamp>",
+    "modified_at":  "<Timestamp>",
+  },
+  "title":  "<String>",
+  "body":   "<String>",  
+  "author":
+  {
+    "_id":  "<ObjectId>",
+    "name": "<String>",
+    "email":
+    {
+      "text":     "<String>",
+      "display":  "<Boolean>"
+    }
+  },
+  "state":
+  {
+    "enabled":  "<Boolean>",
+    "active":   "<Boolean>",
+    "spam":     "<Boolean>"
+  }  
+}

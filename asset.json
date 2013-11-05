@@ -1,0 +1,20 @@
+/* assets */
+{
+  "viewable":
+  {
+    "_id":  "<ObjectId>",
+    "type": "<String>"
+  },
+  "attachment":
+  {
+    "width":        "<Integer>",
+    "height":       "<Integer>",
+    "file_size":    "<Integer>",
+    "content_type": "<String>",
+    "file_name":    "<String>",
+    "updated_at":   "<Timestamp>"
+  },
+  "position": "<Integer>",
+  "type":     "<String>",
+  "alt":      "<String>" /* Text */
+}

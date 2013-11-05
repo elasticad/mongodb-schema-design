@@ -1,0 +1,31 @@
+/* taxons */
+{
+  "parent_id":    "<ObjectId>",
+  "position":     "<Integer>",
+  "name":         "<String>",
+  "description":  "<String>",
+  "taxonomy_id":  "<ObjectId>",
+  "lft":          "<Integer>",
+  "rgt":          "<Integer>",
+  "depth":        "<Integer>",
+  "icon":
+  {
+    "file_name":    "<String>",
+    "content_type": "<String>",
+    "file_size":    "<Integer>",
+    "updated_at":   "<Timestamp>"
+  },
+  "seo": /* search engine optimization */
+  {
+    "permalink": "<String>",
+    /* e.g. http://example.com/cell-phones
+            cell-phones is a permalink 
+    */    
+    "meta": /* meta data */
+    {
+      "description":  "<String>", /* Text */
+      "keywords":     "<String>",
+      "title":        "<String>"      
+    }    
+  }
+}

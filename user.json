@@ -1,0 +1,45 @@
+/* users */
+{
+  "date":
+  {
+    "registered_at":          "<Timestamp>",
+    "modified_at":            "<Timestamp>",
+    "remember_created_at":    "<Timestamp>",
+    "reset_password_sent_at": "<Timestamp>",
+    "last_request_at":        "<Timestamp>",
+    "current_sign_in_at":     "<Timestamp>",
+    "last_sign_in_at":        "<Timestamp>",
+    "locked_at":              "<Timestamp>",    
+  },
+  "state":
+  {
+    "enabled":  "<Boolean>",
+    "active":   "<Boolean>",
+    "banned":   "<Boolean>"
+  },
+  "password":
+  {
+    "encrypted":  "<String>",
+    "salt":       "<String>"
+  },
+  "ip":
+  {
+    "current_sign_in":  "<String>",
+    "last_sign_in":     "<String>"   
+  },
+  "token":
+  {
+    "remember":       "<String>",
+    "persistence":    "<String>",
+    "reset_password": "<String>",
+    "perishable":     "<String>",    
+    "authentication": "<String>",
+    "unlock":         "<String>"
+  },
+  "email":            "<String>",
+  "sign_in_count":    "<Integer>",
+  "failed_attempts":  "<Integer>",  
+  "login":            "<String>",
+  "address_id":       "<ObjectId>",
+  "role":             "<String>" /* admin, user, moderator, ... */
+}

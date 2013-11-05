@@ -1,0 +1,17 @@
+/* countries */
+{
+  "standard":
+  {
+    "iso_name": "<String>",
+    "iso":      "<String>",
+    "iso3":     "<String>"  
+  },
+  
+  "name":             "<String>",
+  "numcode":          "<Integer>",
+  "states_required":  "<Boolean>",
+  "state": 
+  {
+    "active": "<Boolean>"
+  }
+}

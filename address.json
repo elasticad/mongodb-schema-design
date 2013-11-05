@@ -1,0 +1,46 @@
+/* addresses */
+{
+  "first_name":   "<String>",
+  "last_name":    "<String>",
+  "middle_name":  "<String>",
+  "addresses":    "<Array>", 
+  /* e.g. 'addresses': ['123 Fake Street', 'abc Mock Street'] */
+  "city_id":      "<ObjectId>",
+  "city_area_id": "<ObjectId>",
+  "availability":
+  {
+    // TODO 
+  }, 
+  "type": "<String>", /* individual, commercial, ... */ 
+  /* contacts */
+  "phones": 
+  [
+    { "work":   "<String>" },
+    { "mobile": "<String>" },
+    { "home":   "<String>" } /* , ... */
+  ],
+  /* e.g. 'phones': [{ 'work': '(+992) 90-777-77-77' }, 
+                     { 'mobile': '(+992) 92-777-77-77' }, 
+                     { 'mobile': '(+992) 92-777-77-70' }
+                    ] */
+  "company":  "<String>",
+  "websites": "<Array>", 
+  /* e.g. 'websites': ['http://mycompany.com', 'http://mycompany.alibaba.com'] */
+  "emails": 
+  [
+    {
+      "primary":  "<Boolean>",
+      "text":     "<String>",
+      "display":  "<Boolean>"
+    } /*, ... secondary e-mails */
+  ],
+  /* e.g. 'emails': [{ 'primary': true, 'text': 'foo@bar.com', 'dispay': true },
+                     { 'text': 'foo@example.com', 'dispay': true },
+                     { 'text': 'bar@example.com'}
+                    ] */
+  "coordinate":
+  {
+    "latitude":   "<Double>",
+    "longitude":  "<Double>"
+  }                    
+}

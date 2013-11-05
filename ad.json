@@ -1,0 +1,58 @@
+/* ads */
+{
+  "taxon_id":     "<ObjectId>",
+  "title":        "<String>",
+  "description":  "<String>", /* Text */
+  "type":         "<String>", /* For sale, For rent, For purchase, ... */
+  /* TODO
+   a day, a week, 2 weeks, a month, 2 months, ..
+  "placement_period": ""
+  */
+  "date":
+  {
+    "published_at": "<Timestamp>",
+    "modified_at":  "<Timestamp>",
+    "expire_at":    "<Timestamp>",
+    "deleted_at":   "<Timestamp>"
+  },
+  /* TODO
+    field for negotiable, free, paid, ...
+  */
+  "prices": /* Array */
+  [{
+    "amount":       "<Double>",
+    "currency_id":  "<String>",
+  }],
+  "author":
+  {
+    "_id":        "<ObjectId>",
+    "address_id": "<ObjectId>",    
+    "ip":         "<String>"
+  },
+  "condition":
+  {
+    "percentage": "<Integer>",
+    "label":      "<String>", /* new, old, good, ... */
+  },   
+  "state": /* status */
+  {
+    "premium":  "<Boolean>",
+    "enabled":  "<Boolean>",
+    "active":   "<Boolean>",
+    "spam":     "<Boolean>"
+  },
+  "activation_hash": "<String>", /* activation code */
+  "seo": /* search engine optimization */
+  {
+    "permalink": "<String>",
+    /* e.g. http://example.com/my-cell-phone
+            my-cell-phone is a permalink 
+    */
+    "meta": /* meta data */
+    {
+      "description":  "<String>", /* Text */
+      "keywords":     "<String>",
+      "title":        "<String>"      
+    }
+  }
+}

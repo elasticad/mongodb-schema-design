@@ -1,0 +1,14 @@
+/* city_areas */
+{
+  "city_id":  "<ObjectId>",
+  "name":     "<String>",
+  "state": 
+  {
+    "active": "<Boolean>"
+  },
+  "coordinate":
+  {
+    "latitude":   "<Double>",
+    "longitude":  "<Double>"
+  }
+}

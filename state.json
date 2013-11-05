@@ -1,0 +1,10 @@
+/* states */
+{
+  "name":       "<String>",
+  "abbr":       "<String>",
+  "country_id": "<ObjectId>",
+  "state": 
+  {
+    "active": "<Boolean>"
+  }  
+}
