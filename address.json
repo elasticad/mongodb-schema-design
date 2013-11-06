@@ -1,8 +1,11 @@
 /* addresses */
 {
-  "first_name":   "<String>",
-  "last_name":    "<String>",
-  "middle_name":  "<String>",
+  "name":
+  {
+    "first_name":   "<String>",
+    "middle_name":  "<String>",
+    "last_name":    "<String>"
+  },
   "addresses":    "<Array>", 
   /* e.g. 'addresses': ['123 Fake Street', 'abc Mock Street'] */
   "city_id":      "<ObjectId>",
