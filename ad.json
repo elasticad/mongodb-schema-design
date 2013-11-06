@@ -18,7 +18,7 @@
   /* TODO
     field for negotiable, free, paid, ...
   */
-  "prices": /* Array */
+  "prices": /* <Array> */
   [{
     "amount":       "<Double>",
     "currency_id":  "<String>",

@@ -9,11 +9,25 @@
   "city_area_id": "<ObjectId>",
   "availability":
   {
-    // TODO 
+    // TODO
+    "days": "<Array>",
+    /* Numeric day of week:
+       0 - Monday, ..., 6 - Sunday, 7 - All days 
+       e.g. 'days', [0, 2], which means only available by Monday and Wednesday 
+    */
+    "hours": /* <Array> */
+    [ 
+      {
+        "from": "<String>",
+        "to": "<String>"
+      } /* , ... */
+    ]
+    /* e.g. 'hours': [{ 'from': '08:00', 'to': '08:40' }, 
+                      { 'from': '18:00', 'to': '20:00' }] */ 
   }, 
   "type": "<String>", /* individual, commercial, ... */ 
   /* contacts */
-  "phones": 
+  "phones": /* <Array> */
   [
     { "work":   "<String>" },
     { "mobile": "<String>" },
@@ -26,7 +40,7 @@
   "company":  "<String>",
   "websites": "<Array>", 
   /* e.g. 'websites': ['http://mycompany.com', 'http://mycompany.alibaba.com'] */
-  "emails": 
+  "emails": /* <Array> */
   [
     {
       "primary":  "<Boolean>",
