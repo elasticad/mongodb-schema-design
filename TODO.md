@@ -46,3 +46,5 @@
 
 *   Add sample data with utility test validation for the schemas.
     For more information about the utility refer to the [link](http://json-schema.org/implementations.html)
+
+*   Rename project to `elasticad-json-schemas`.
