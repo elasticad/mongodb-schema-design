@@ -48,3 +48,16 @@
     For more information about the utility refer to the [link](http://json-schema.org/implementations.html)
 
 *   Rename project to `elasticad-json-schemas`.
+
+*   Add example samples for each schema definitions.
+    e.g. For `ad` document.
+    ```json
+    {
+      "taxon_id": ObjectId("5280afc77562003afc0e0000"),
+      "title": "Book by Ruby on Rails programming",
+      "description": "Wonderful book written by smarter authors",
+      "type": "FOR_SALE",
+      "placement_period": "2.weeks",
+      "activation_hash": "5280afc77562003afc0e0000"
+    }
+    ```

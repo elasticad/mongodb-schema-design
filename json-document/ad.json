@@ -51,7 +51,7 @@
     "meta": /* meta data */
     {
       "description":  "<String>", /* Text */
-      "keywords":     "<String>",
+      "keywords":     "<Array>",
       "title":        "<String>"      
     }
   }
