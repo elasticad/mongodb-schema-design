@@ -20,8 +20,8 @@
   */
   "prices": /* <Array> */
   [{
-    "amount":       "<Double>",
-    "currency_id":  "<String>",
+    "amount":         "<Double>",
+    "currency_code":  "<String>",
   }],
   "author":
   {
@@ -48,7 +48,7 @@
     /* e.g. http://example.com/my-cell-phone
             my-cell-phone is a permalink 
     */
-    "meta": /* meta data */
+    "metadata": /* meta data */
     {
       "description":  "<String>", /* Text */
       "keywords":     "<Array>",

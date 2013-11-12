@@ -21,7 +21,7 @@
     /* e.g. http://example.com/cell-phones
             cell-phones is a permalink 
     */    
-    "meta": /* meta data */
+    "metadata": /* meta data */
     {
       "description":  "<String>", /* Text */
       "keywords":     "<String>",
