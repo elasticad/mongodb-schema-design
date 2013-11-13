@@ -32,9 +32,13 @@
   /* contacts */
   "phones": /* <Array> */
   [
-    { "work":   "<String>" },
+ /* { "work":   "<String>" },
     { "mobile": "<String>" },
-    { "home":   "<String>" } /* , ... */
+    { "home":   "<String>" } */
+    { "phone":  "<String>", "type": "work" },
+    { "phone":  "<String>", "type": "mobile" },
+    { "phone":  "<String>", "type": "home" }
+    /* , ... */
   ],
   /* e.g. 'phones': [{ 'work': '(+992) 90-777-77-77' }, 
                      { 'mobile': '(+992) 92-777-77-77' }, 
@@ -47,7 +51,8 @@
   [
     {
       "primary":  "<Boolean>",
-      "text":     "<String>",
+      /* "text":     "<String>", */
+      "email":    "<String>",
       "display":  "<Boolean>"
     } /*, ... secondary e-mails */
   ],
